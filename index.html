@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Business Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">BusinessPro</div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Transform Your Business Today</h1>
+        <p class="hero-subtitle">
+          We deliver innovative solutions that drive growth and success for your
+          company
+        </p>
+        <a href="#contact" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">💼</div>
+            <h3>Business Consulting</h3>
+            <p>
+              Strategic guidance to optimize your operations and maximize
+              profitability
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🚀</div>
+            <h3>Digital Transformation</h3>
+            <p>
+              Modernize your business with cutting-edge technology solutions
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Data Analytics</h3>
+            <p>
+              Turn your data into actionable insights for better decision making
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-container">
+          <button class="slider-btn prev">&lt;</button>
+          <div class="testimonials-slider">
+            <div class="testimonial-slide active">
+              <p class="testimonial-text">
+                "Working with BusinessPro transformed our company. Their
+                expertise and dedication helped us achieve 200% growth in just
+                one year."
+              </p>
+              <p class="testimonial-author">Sarah Johnson</p>
+              <p class="testimonial-position">CEO, TechStart Inc.</p>
+            </div>
+            <div class="testimonial-slide">
+              <p class="testimonial-text">
+                "The digital transformation services exceeded our expectations.
+                Our efficiency improved dramatically and costs went down."
+              </p>
+              <p class="testimonial-author">Michael Chen</p>
+              <p class="testimonial-position">
+                Operations Director, Global Systems
+              </p>
+            </div>
+            <div class="testimonial-slide">
+              <p class="testimonial-text">
+                "Outstanding data analytics solutions. We now make informed
+                decisions backed by real-time insights. Highly recommended!"
+              </p>
+              <p class="testimonial-author">Emily Rodriguez</p>
+              <p class="testimonial-position">CFO, Finance Plus</p>
+            </div>
+          </div>
+          <button class="slider-btn next">&gt;</button>
+        </div>
+        <div class="slider-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 BusinessPro. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
