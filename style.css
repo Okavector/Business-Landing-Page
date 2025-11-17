@@ -151,8 +151,6 @@ body {
   text-align: center;
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
-  opacity: 0;
-  transform: translateY(30px);
 }
 
 .service-card.animate-in {
@@ -190,8 +188,6 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 3rem;
-  opacity: 0;
-  transform: translateY(30px);
 }
 
 .testimonial-container.animate-in {
@@ -303,8 +299,6 @@ body {
   padding: 3rem;
   border-radius: 16px;
   box-shadow: var(--shadow);
-  opacity: 0;
-  transform: translateY(30px);
 }
 
 .contact-form.animate-in {
